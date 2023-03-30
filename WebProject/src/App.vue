@@ -1,10 +1,10 @@
 <template>
 <div class="Up">
-    <clockPage msg="222"/>
+    <clockPage btuName="test" @click="sumit"/>
 </div>
 
 <div class="Down">
-    <clockPage msg="123"></clockPage>
+    <clockPage btuName="123"></clockPage>
 </div>
 </template>
 
@@ -14,6 +14,9 @@ import clockPage from './components/clockPage.vue'
 <style scoped>
     .Up{
         color: red;
+            /*background-color: red;*/
+            color: red;
+            /*margin-left: 10px;*/
     }
 
 </style>
