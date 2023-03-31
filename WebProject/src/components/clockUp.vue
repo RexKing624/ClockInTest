@@ -1,9 +1,7 @@
 <template>
   <div>
-<!--      <h1>{{ msg }}</h1>-->
       <el-row class="rowBox">
           <el-button class="btu" @click="submit()">{{ btuName }}</el-button>
-<!--          <el-button class="btu" @click="submit()">test</el-button>-->
       </el-row>
   </div>
 </template>
@@ -17,7 +15,7 @@ export default {
         }
     },
     mounted() {
-        console.log('-------===-------')
+        // console.log('-------===-------')
     },
     methods:{
         submit(){
@@ -29,6 +27,7 @@ export default {
             var timeStamp = myDate.getTime()
             var newDate = new Date(timeStamp);
             console.log(timeStamp)
+            console.log(myDate)
 
         },
 
