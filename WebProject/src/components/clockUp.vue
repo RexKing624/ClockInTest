@@ -22,12 +22,14 @@ export default {
             console.log(this.btuName,'-----')
             // var timestamp = Date.parse(new Date());
             // console.log(timestamp,'=====')
+
+
             var myDate = new Date();
             // var Yer=myDate.getMonth();
             var timeStamp = myDate.getTime()
             var newDate = new Date(timeStamp);
             console.log(timeStamp)
-            console.log(myDate)
+            console.log(myDate,'----')
 
         },
 
